@@ -1,10 +1,12 @@
 # BackboneRailsExtensions
 
-This gem provides a set of common extensions to Backbone.js.  These extensions include  
-simple collection views, paginated collection views, searching, and loading indicators.
+This gem provides a set of common extensions to Backbone.js.  These extensions include simple collection views, paginated collection views, searching, and loading indicators.
 
-All files are included in the asset pipeline by default. To leverage the files in your 
-project, simply reference the components in your manifest files.
+All files are included in the asset pipeline by default. To leverage the files in your project, simply reference the components in your manifest files.
+
+## Dependencies
+
+The project has a dependency on Spin.js.  Appropriate files are included in the vendor directory.
 
 ## Versioning
 
