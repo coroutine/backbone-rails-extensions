@@ -11,6 +11,7 @@ Gem::Specification.new do |gem|
   gem.description   = %q{This gem provides a set of Backbone.js extensions commonly used in Coroutine projects. These extensions include simple collection views, paginated collection views, searching, and loading indicators.}
   gem.summary       = %q{This gem provides a set of Backbone.js extensions commonly used in Coroutine projects.}
   gem.homepage      = "https://github.com/coroutine/backbone-rails-extensions"
+  gem.licenses      = ['MIT']
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
